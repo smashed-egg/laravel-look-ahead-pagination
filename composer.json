@@ -1,0 +1,48 @@
+{
+    "name": "smashed-egg/laravel-look-ahead-pagination",
+    "description": "Adds support for look-ahead pagination for Laravel projects.",
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/console": "^9.21|^10.0|^11.0|^12.0",
+        "illuminate/contracts": "^9.21|^10.0|^11.0|^12.0",
+        "illuminate/support": "^9.21|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^2.6|^3.0",
+        "laravel/pint": "^1.0|^2.0",
+        "orchestra/testbench": "^7.6|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.5|^10.0|^11.0|^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SmashedEgg\\LaravelLookAheadPagination\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SmashedEgg\\LaravelLookAheadPagination\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Ellis"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "SmashedEgg\\LaravelLookAheadPagination\\PaginationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
