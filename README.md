@@ -6,7 +6,14 @@
 [![Latest Stable Version](https://poser.pugx.org/smashed-egg/laravel-look-ahead-pagination/v/stable)](https://github.com/smashed-egg/laravel-look-ahead-pagination/releases)
 [![Downloads this Month](https://img.shields.io/packagist/dm/smashed-egg/laravel-look-ahead-pagination.svg)](https://packagist.org/packages/smashed-egg/laravel-look-ahead-pagination)
 
-This package allows you to create route model bindings that also use the authenticated user to retrieve the model.
+This package allows you to use Look-ahead pagination in your application.
+
+## What is Look-ahead Pagination
+
+Look-ahead Pagination is more lightweight than Laravel's standard pagination. 
+
+It looks similar to the simple and cursor pagination, so the pages aren't shown in the pagination links,
+but the queries under the hood are a lot faster, particularly when the table you are paginating is large. 
 
 ## Requirements
 
