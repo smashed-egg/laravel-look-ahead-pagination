@@ -3,9 +3,8 @@
 </p>
 
 # Laravel Look-ahead Pagination
-[![Latest Stable Version](https://poser.pugx.org/smashed-egg/laravel-auth-route-bindings/v/stable)](https://github.com/smashed-egg/laravel-auth-route-bindings/releases)
-[![Downloads this Month](https://img.shields.io/packagist/dm/smashed-egg/laravel-auth-route-bindings.svg)](https://packagist.org/packages/smashed-egg/laravel-auth-route-bindings)
-
+[![Latest Stable Version](https://poser.pugx.org/smashed-egg/laravel-look-ahead-pagination/v/stable)](https://github.com/smashed-egg/laravel-look-ahead-pagination/releases)
+[![Downloads this Month](https://img.shields.io/packagist/dm/smashed-egg/laravel-look-ahead-pagination.svg)](https://packagist.org/packages/smashed-egg/laravel-look-ahead-pagination)
 
 This package allows you to create route model bindings that also use the authenticated user to retrieve the model.
 

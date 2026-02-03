@@ -2,13 +2,28 @@
 
 namespace SmashedEgg\LaravelLookAheadPagination;
 
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Collection;
 
+/**
+ * @template TKey of array-key
+ *
+ * @template-covariant TValue
+ *
+ * @extends Paginator<TKey, TValue>
+ */
 class LookAheadPaginator extends Paginator
 {
     protected bool $nextPageExists;
 
+    /**
+     * @param Collection<TKey,TValue>|Arrayable<TKey,TValue>|iterable<TKey,TValue>|null $items
+     * @param $perPage
+     * @param $currentPage
+     * @param bool $nextPageExists
+     * @param array $options
+     */
     public function __construct(
         $items,
         $perPage,
